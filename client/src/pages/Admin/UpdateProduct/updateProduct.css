@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800&display=swap');
+
+.dashboard{
+    font-family: 'Inter', sans-serif;
+}
+
+.upcontainer{
+    margin-top: 80px;
+}
+
+.up-title{
+    margin-left: 18vw;
+    font-size: 31px;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.upselect{
+    padding: 3px 5px; 
+    background-color: white;
+    border:none;
+    width: 50%;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+.upoption{
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+}
+.upoption:hover{
+    background-color: rgb(226, 227, 240) !important;
+}
+
+
+.upuploadPhoto{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+.upuploadPhoto:hover{
+    background-color: rgb(223, 235, 245);
+    color: black;
+}
+
+
+.upInput {
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 10px;
+    border: 0.5px solid #ccc;
+    margin-left: 2px;
+    color: #555;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  }
+  
+  .upInput::placeholder {
+    color: #999;
+    text-align: center;
+    font-size: larger;
+  }
+  
+  .upInput:focus {
+    outline: none;
+    border-color: #414346;
+    box-shadow: 0 0 5px #43464a;
+  }
+  
+
+ 
+ 
+  
+  .up-btns {
+    padding: 8px 38px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    color: rgb(66, 57, 57);
+    background-color: rgb(139, 196, 239);
+    border: 2px solid rgb(0, 72, 255);
+    display: inline;
+    width: fit-content;
+    font-size: 14px;
+    margin-left: 120px;
+  }
+  .up-btns:hover{
+    background-color: rgb(81, 151, 248);
+  }
+
+  .upDeleteButton{
+    background-color: rgb(243, 134, 160);
+    border: 2px solid rgb(255, 0, 0);
+  }
+
+  .upDeleteButton:hover{
+    background-color: rgb(248, 81, 115);
+  }
+  
